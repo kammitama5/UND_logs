@@ -15,13 +15,13 @@ Python 2
 
 1. ```$ cd``` into where sql file is located
 
-   <img src="/md_photos/nd_002.png" width="300">
+   <img src="/md_photos/nd_002.png" width="400">
 
 2. Load data in database using command:
 
    ```psql -d news -f newsdata.sql```
    
-  <img src="/md_photos/nd_003.png" width="300"> 
+  <img src="/md_photos/nd_003.png" width="400"> 
   
 3. Use ```=> psql -d news``` to connect to database.
 
