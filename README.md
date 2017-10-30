@@ -15,7 +15,7 @@ Python 2
 
 1. ```$ cd``` into where sql file is located
 
-   <img src="/md_photos/nd_002.png" width="400">
+<img src="/md_photos/nd_002.png" width="400">
 
 2. Load data in database using command:
 
