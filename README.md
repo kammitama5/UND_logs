@@ -19,7 +19,9 @@ Python 2
 
 2. Load data in database using command:
 
-   ```psql -d news -f newsdata.sql```
+   ```
+   psql -d news -f newsdata.sql
+   ```
    
   <img src="/md_photos/nd_003.png" width="400"> 
   
