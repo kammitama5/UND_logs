@@ -1,5 +1,8 @@
 # UND_logs
-Project
+
+## Final Logs Project
+
+## Objective: Analyze logs given a sql file using Python, VirtualBox and Vagrant.
 
 - This Project uses:
 
