@@ -43,7 +43,7 @@ Python 2
 as num from articles,log where log.path=CONCAT('/article/',articles.slug)
 group by articles.title,articles.author order by num desc)
 ```
-<img src="/md_photos/nd_005.png" width="300">
+<img src="/md_photos/nd_005.png" width="500">
 
 6. To exit psql, type ```$ Ctrl + D```. This will bring you back to the bash shell.
 
@@ -54,20 +54,20 @@ group by articles.title,articles.author order by num desc)
    This will generate a file called output.txt in the directory where ```logs.py``` 
    is located.
    
- <img src="/md_photos/nd_009.png" width="300">
+ <img src="/md_photos/nd_009.png" width="500">
    
 7. Your queries should match the result in output.txt
 
 - Query One 
 
-<img src="/md_photos/nd_006.png" width="300">
+<img src="/md_photos/nd_006.png" width="400">
 
 - Query Two 
 
-<img src="/md_photos/nd_007.png" width="300">
+<img src="/md_photos/nd_007.png" width="400">
 
 - Query Three
 
-<img src="/md_photos/nd_008.png" width="300">
+<img src="/md_photos/nd_008.png" width="500">
    
  
