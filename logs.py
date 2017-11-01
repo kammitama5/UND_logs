@@ -1,12 +1,12 @@
-#! /usr/bin/env python
+# ! /usr/bin/env python
 import psycopg2
 # using Python 2
 DBNAME = "news"
 
 
-#connect to database and make a query
-#open connection to database
-#execute query, fetch and close database request
+# connect to database and make a query
+# open connection to database
+# execute query, fetch and close database request
 
 def connect_query(query):
 	db = psycopg2.connect(database=DBNAME)
@@ -15,8 +15,8 @@ def connect_query(query):
 	return cursor.fetchall()
 	db.close()
 	
-#list queries
-#Query 1: What are the three most popular articles of all time?
+# list queries
+# Query 1: What are the three most popular articles of all time?
 
 query_1 = """
 select title, count(*) as views from articles inner join
@@ -25,7 +25,7 @@ where log.status like '%200%'
 group by log.path, articles.title order by views desc limit 3;
 """
 
-#query_1 function
+# query_1 function
 
 def query_one(query):
 	queries_ = connect_query(query)
@@ -46,7 +46,7 @@ log on concat('/article/', articles.slug) = log.path where
 log.status like '%200%' group by authors.name order by views desc
 """
 
-#query_2 function
+# query_2 function
 
 def query_two(query):
 	queries_ = connect_query(query)
