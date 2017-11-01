@@ -63,7 +63,7 @@ def query_two(query):
     print "Who are the most popular article authors of all time?"
     print "The most popular article authors of all time are : "
     for query_ in queries_:
-        print "{}-{}views".format(query_[0], query_[1])
+        print "{} - {}views".format(query_[0], query_[1])
 # Query 3
 # On Which days did more than 1% of requests lead to errors?
 
