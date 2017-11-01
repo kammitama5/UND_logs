@@ -4,6 +4,10 @@
 
 ## Objective: Analyze logs given a sql file using Python, VirtualBox and Vagrant.
 
+## Start with the Original Repo: 
+
+You can fork or clone Udacity's Vagrant file for the Project [here](https://github.com/udacity/fullstack-nanodegree-vm) 
+
 - This Project uses:
 
 ```
@@ -15,6 +19,30 @@ Python 2
 
 - Instructions are defined as ```$ ```, which is a ```bash``` command 
   or ```=>``` which is a ```psql``` command.
+  
+## Get up and running with VirtualBox and Vagrant
+
+- Go to your command line and find the downloaded file that was cloned
+
+- ```$ cd``` into your vagrant folder. 
+
+- You should see your vagrant file listed.
+
+- Type ```$ vagrant up``` to start Virtualbox and set up vagrant file
+
+- ***Note:*** You may have to turn on Virtualization in your BIOS via rebooting
+  and ```enable virtualization```. 
+  
+- Vagrant may hang a bit, but if it is taking too long and nothing is happening,
+  you may want to hit ```Ctrl + C``` and troubleshoot.
+  
+## Assuming all goes well. 
+
+- ```$ ssh``` into your virtualbox. You should see ```vagrant@vagrant``` as the user.
+
+- ```$ cd``` into where your vagrant file is located. You should see your sql file.
+
+## Setting up your database and making queries
 
 1. ```$ cd``` into where sql file is located
 
