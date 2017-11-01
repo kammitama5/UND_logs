@@ -43,9 +43,31 @@ Python 2
 as num from articles,log where log.path=CONCAT('/article/',articles.slug)
 group by articles.title,articles.author order by num desc)
 ```
+<img src="/md_photos/nd_005.png" width="300">
 
-6. Run python file by typing ```$ python logs.py``` to see run queries
+6. To exit psql, type ```$ Ctrl + D```. This will bring you back to the bash shell.
 
+7. ```$ cd ``` to your vagrant directory, and run the python file.
+
+8. Run python file by typing ```$ python logs.py``` to see run queries
+   or pipe them to a text by running ```$ python logs.py / all > ouptput.txt```.
+   This will generate a file called output.txt in the directory where ```logs.py``` 
+   is located.
+   
+ <img src="/md_photos/nd_009.png" width="300">
+   
 7. Your queries should match the result in output.txt
+
+- Query One 
+
+<img src="/md_photos/nd_006.png" width="300">
+
+- Query Two 
+
+<img src="/md_photos/nd_007.png" width="300">
+
+- Query Three
+
+<img src="/md_photos/nd_008.png" width="300">
    
  
