@@ -54,7 +54,7 @@ group by articles.title,articles.author order by num desc)
    
    ```$ python logs.py / all > ouptput.txt```.
    
-   This will generate a file called output.txt in the directory where ```logs.py``` 
+   This will generate a file called ```output.txt``` in the directory where ```logs.py``` 
    is located.
    
  <img src="/md_photos/nd_009.png" width="500">
