@@ -50,7 +50,10 @@ group by articles.title,articles.author order by num desc)
 7. ```$ cd ``` to your vagrant directory, and run the python file.
 
 8. Run python file by typing ```$ python logs.py``` to see run queries
-   or pipe them to a text by running ```$ python logs.py / all > ouptput.txt```.
+   or pipe them to a text by running
+   
+   ```$ python logs.py / all > ouptput.txt```.
+   
    This will generate a file called output.txt in the directory where ```logs.py``` 
    is located.
    
