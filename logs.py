@@ -19,6 +19,7 @@ def connect_query(query):
 # list queries
 # Query 1: What are the three most popular articles of all time?
 
+
 query_1 = """
 
 
@@ -39,6 +40,7 @@ def query_one(query):
         print "{} - {} views".format(query_[0], query_[1])
 # Query 2
 # Who are the most popular article authors of all time?
+
 
 query_2 = """
 
@@ -64,6 +66,7 @@ def query_two(query):
         print "{}-{}views".format(query_[0], query_[1])
 # Query 3
 # On Which days did more than 1% of requests lead to errors?
+
 
 query_3 = """
 
