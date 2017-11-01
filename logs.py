@@ -20,6 +20,8 @@ def connect_query(query):
 # Query 1: What are the three most popular articles of all time?
 
 query_1 = """
+
+
 select title, count(*) as views from articles inner join
 log on concat('/article/', articles.slug) = log.path
 where log.status like '%200%'
@@ -39,6 +41,8 @@ def query_one(query):
 # Who are the most popular article authors of all time?
 
 query_2 = """
+
+
 select authors.name, count(*) as views from articles inner join
 authors on articles.author = authors.id inner join
 log on concat('/article/', articles.slug) = log.path where
@@ -62,6 +66,8 @@ def query_two(query):
 # On Which days did more than 1% of requests lead to errors?
 
 query_3 = """
+
+
 select * from (
 select request1.day,
 round(cast((100*request2.req) as numeric) /
@@ -89,6 +95,8 @@ def query_three(query):
         print "{} - {} views".format(query_[0], query_[1])
 
 # run  and print queries
+
+
 print query_one(query_1)
 print query_two(query_2)
 print query_three(query_3)
